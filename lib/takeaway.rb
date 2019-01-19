@@ -1,5 +1,16 @@
 require_relative 'menu'
+
 class Takeaway
-  def list_menu
+
+  attr_reader :menu
+
+  def initialize(menu)
+    @menu = menu
   end
+
+  def list_menu
+    @menu.show
+
+  end
+
 end
