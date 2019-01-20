@@ -10,7 +10,6 @@ class Takeaway
 
   def list_menu
     @menu.show
-
   end
 
 end
